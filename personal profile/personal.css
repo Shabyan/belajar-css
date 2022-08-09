@@ -1,0 +1,32 @@
+,html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+h1, h2, h3, p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.centerbox {
+    width: 550px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: rgba( 0, 0, 0, 0.5);
+}
+
+.avatar img{
+    border-radius: 50%;
+}
+
+.sosial {
+    margin: 1opx;
+}
