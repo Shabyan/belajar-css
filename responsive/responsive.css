@@ -1,0 +1,44 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid #000;
+    width: 1080px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.box {
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+}
+
+@media (max-width : 700px)
+{
+    .box{
+        background-color:green;
+        width: 98%;
+    }
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px)
+{
+    .box {
+        background-color: red;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    }
+    .container {
+        width: 100%;
+    }
+}
