@@ -1,0 +1,157 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMKN 1 SUBANG</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar" id="Beranda">
+      <h1 class="logo">SMKN 1 SUBANG</h1>
+      <ul class="nav-link">
+        <li class="active"><a href="#Beranda">Beranda</a></li>
+        <li><a href="#Jurusan">Jurusan</a></li>
+        <li><a href="#Program">Program</a></li>
+        <li class="ctn"><a href="#Prestasi">Prestasi</a></li>
+      </ul>
+      <img src="img/menu.png" alt="" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <center>
+          <img src="smea-removebg-preview.png" alt="" />
+        </center>
+        <br />
+        <h2>SMKN 1 SUBANG</h2>
+        <div class="line"></div>
+        <h1>We are the first, and our commitment is your satisfaction</h1>
+      </div>
+    </header>
+
+    <!--Events-->
+    <section class="event" id="Jurusan">
+      <div class="title">
+        <h1>JURUSAN SMKN 1 SUBANG</h1>
+        <div class="line"></div>
+        <p>berikut beberapa di SMKN 1 SUBANG</p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="img/RPL-removebg-preview.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/TKJ-removebg-preview.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/OTKP.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/TPM.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/TBSM.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/BDP.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/DG.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/TL.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/TB.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="img/AKL.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--Explore-->
+    <section class="explore" id="Program">
+      <div class="explore-content">
+        <h1>PROGRAM "C E R E N"</h1>
+        <div class="line"></div>
+        <p>
+          <span>C</span>HARACTER BUILDING Program sekolah untuk membentuk
+          karakter peserta didik yang agamis melalui program Islamic School
+          Culture, membentuk karakter peserta didik yang kuat fisik dan Tangguh
+          melalui program bela negara dan untuk membentuk karakter bekerja sama
+          ataubergotong royong dilaksanakan dengan program kebersamaan.
+          <br />
+          <span>E</span>NTREPRENEURSHIIP Program unit produksi pada
+          masing-masing program keahlian, optimalisasi mimake dengan konsep SMK
+          Masuk Desa, penciptaan berbagai peluang dengan konsep Start Up Bisnis.
+          <br />
+          <span>R</span>ESPONSIVE Program Smart School dengan konsep “One for
+          All”, digitalisasi seluruh program yang dilaksakan sekolah, terbiasa
+          merancang teknologi terbarukan yang dibutuhkan masyarakat luas.
+          <br />
+          <span>E</span>XCELLENT of COMPETENCY Program kelas industry untuk
+          setiap kompetensi keahlian, pelaksanaan pembelaja- ran dengan sistem
+          Teaching Factory, Sinkronisasi kurikulum industry dan program
+          pencapaian kluster SMK Negeri 1 Subangmenajdi kluster industry pada
+          tahun 2024.
+          <br />
+          <span>N</span>ATURE Program kegiatan sekolah berbasis Greeen School
+          yang bertitik berat terhadap penghijauan dan pelestarian lingkungan.
+        </p>
+      </div>
+    </section>
+
+    <!--Tour-->
+    <section class="tour" id="Prestasi">
+      <div class="row">
+        <div class="col content-col">
+          <h1>PRESTASI-PRESTASI</h1>
+          <h2>Yang ada di SMKN 1 SUBANG</h2>
+          <div class="line"></div>
+          <h4>
+            Berikut adalah beberapa prestasi yang telah di raih oleh para siswa
+            siswi di SMKN 1 SUBANG
+          </h4>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="arifinjuara.jpeg" alt="" />
+            <img src="ariefjuara.jpeg" alt="" />
+            <img src="riojuara.jpeg" alt="" />
+            <img src="Sesilajuara.jpeg" alt="" />
+            <img src="Fitranjuara.jpeg" alt="" />
+            <img src="aldijuara.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <p>
+        SMK NEGERI 1 SUBANG The School of CEREN Models “We Are The First, and
+        Our Commitment is Your Satisfaction”
+        <br />
+        Jalan Arief Rahman Hakim No 35, Kabupaten Subang, Jawa Barat 41213.
+        Google Maps :
+        <a href="https://goo.gl/maps/rSNoSaWb6SH2XUdW9"
+          >https://goo.gl/maps/rSNoSaWb6SH2XUdW9</a
+        >
+        <br />
+        Telp: 0260-411410 Email: info@smkn1subang.sch.id
+      </p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlink = document.querySelector(".nav-link");
+
+      menuBtn.addEventListener("click", () => {
+        navlink.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
